@@ -121,11 +121,11 @@ function aging(a) {
 aging(17);
 
 // Do while loop
-let i = 4;
+let p = 4;
 do {
-  console.log(i);
-  i--;
-} while (i >= 3);
+  console.log(p);
+  p--;
+} while (p >= 3);
 
 //While & Do-while Loop
 let cars = ["Lamborgini", "BMW", "Viper", "Hellcat"];
