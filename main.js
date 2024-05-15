@@ -1,33 +1,3 @@
-export default function name() {
-  console.log("HELLO USER");
-}
-
-export function Othername() {
-  console.log("HELLO OTHER USER");
-}
-
-export class NameClass {
-  test() {
-    console.warn("Name class test function");
-  }
-}
-
-class OtherNameClass {
-  test() {
-    console.warn("Other Name class test function");
-  }
-}
-
-export let UL = new OtherNameClass();
-
-const message = "Hello world"; // Try edit me
-
-// Update header text
-document.querySelector("#header").innerHTML = message;
-
-// Log to console
-console.log(message);
-
 //Makig a table
 function fun(a) {
   for (let i = 0; i <= 10; i++) {
