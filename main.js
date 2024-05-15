@@ -101,9 +101,9 @@ let nestarray = [
 
 let singlearray = [];
 
-for (i = 0; i < nestarray.length; i++) {
-  for (j = 0; j < nestarray[i].length; j++) {
-    singlearray.push(nestarray[i][j]);
+for (t = 0; t < nestarray.length; t++) {
+  for (j = 0; j < nestarray[t].length; j++) {
+    singlearray.push(nestarray[t][j]);
   }
 }
 
