@@ -10,6 +10,20 @@
     <h1>HELLO THERE FELLOW!!</h1>
     <p>To view javascript code use inspect for console.</p>
 
-    <script src="main.js"></script>
+    <script src="main.js">
+        import name, { Othername as user0, NameClass, UL } from "./main.js";
+
+      let OL = new NameClass();
+
+      function Othername() {
+        console.log("HELLO OTHER USER IN SAME FILE");
+      }
+
+      name();
+      user0();
+      Othername();
+      UL.test();
+      OL.test();
+    </script>
   </body>
 </html>
